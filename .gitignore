@@ -1,0 +1,36 @@
+# ── Propio de cada proyecto: nunca se sube a GitHub ──
+/proyecto/
+**/BD/
+**/OUTPUT/
+CLAUDE.local.md
+config/local.json
+.claude/settings.local.json
+
+# ── Datos que nunca van al repo ──
+# Base de precios: los CSV viven en la carpeta configurada en config/local.json
+herramientas/bd_precios/*.csv
+herramientas/bd_precios/*.jsonl
+**/.bd_precios.lock
+
+# Documentos de clientes, CVs, cotizaciones y planillas (red de seguridad).
+# Solo se permiten dentro de plantillas/.
+*.pdf
+*.doc
+*.docx
+*.docm
+*.xls
+*.xlsx
+*.xlsm
+*.msg
+*.eml
+*.zip
+!plantillas/**
+
+# ── Temporales y del sistema ──
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp

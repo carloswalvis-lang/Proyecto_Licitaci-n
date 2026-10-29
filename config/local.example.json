@@ -1,0 +1,9 @@
+{
+  "_ayuda": "Copia este archivo como config/local.json (no se sube a GitHub) y completa las rutas de tu equipo. Usa doble barra invertida en Windows.",
+  "usuario": "nombre.apellido",
+  "bd_precios": "C:\\Users\\nombre.apellido\\OneDrive\\OneDrive - VELTIS LATAM\\Documentos\\Claude BD\\Proyectos LICITACIONES\\BD PRECIOS",
+  "fschile": "C:\\Users\\nombre.apellido\\OneDrive\\OneDrive - VELTIS LATAM\\FSChile - Comercial - Subm",
+  "cotizaciones_salida": "C:\\Users\\nombre.apellido\\OneDrive\\OneDrive - VELTIS LATAM\\00_Bids\\COT",
+  "publicacion": "main",
+  "rama_principal": "main"
+}
